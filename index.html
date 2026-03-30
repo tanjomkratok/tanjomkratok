@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labor Law Connect</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="badge">ให้คำปรึกษากฎหมายแรงงานออนไลน์</p>
+        <h1>วิดีโอคอลคุยทนายแรงงาน ผ่าน LINE, Facebook หรือ Zoom</h1>
+        <p>
+          เลือกช่องทางที่สะดวก กดติดต่อทันที หรือส่งข้อมูลนัดหมายล่วงหน้า
+          เพื่อให้ทีมทนายติดต่อกลับภายในวันทำการ
+        </p>
+      </header>
+
+      <section class="channels" aria-label="ช่องทางวิดีโอคอล">
+        <article class="card">
+          <h2>LINE</h2>
+          <p>เหมาะสำหรับลูกค้าที่ต้องการคุยเร็วและส่งเอกสารในแชต</p>
+          <a class="btn" href="https://line.me/R/ti/p/@laborlawhelp" target="_blank" rel="noreferrer">เริ่มคุยผ่าน LINE</a>
+        </article>
+
+        <article class="card">
+          <h2>Facebook Messenger</h2>
+          <p>นัดคอลและอัปเดตคดีผ่านเพจได้สะดวก</p>
+          <a class="btn" href="https://m.me/laborlawhelp" target="_blank" rel="noreferrer">เริ่มคุยผ่าน Facebook</a>
+        </article>
+
+        <article class="card">
+          <h2>Zoom</h2>
+          <p>เหมาะกับเคสที่ต้องคุยรายละเอียดแบบเป็นทางการ</p>
+          <a class="btn" href="https://zoom.us/j/1234567890" target="_blank" rel="noreferrer">เข้าห้อง Zoom</a>
+        </article>
+      </section>
+
+      <section class="form-wrap" aria-label="แบบฟอร์มนัดหมาย">
+        <h2>นัดหมายปรึกษา</h2>
+        <form id="bookingForm" class="booking-form">
+          <label>
+            ชื่อ-นามสกุล
+            <input name="name" type="text" required placeholder="เช่น สมชาย ใจดี" />
+          </label>
+
+          <label>
+            หัวข้อปัญหา
+            <input
+              name="topic"
+              type="text"
+              required
+              placeholder="เช่น โดนเลิกจ้างไม่เป็นธรรม"
+            />
+          </label>
+
+          <label>
+            ช่องทางที่ต้องการ
+            <select name="channel" required>
+              <option value="">-- กรุณาเลือก --</option>
+              <option value="LINE">LINE</option>
+              <option value="Facebook Messenger">Facebook Messenger</option>
+              <option value="Zoom">Zoom</option>
+            </select>
+          </label>
+
+          <label>
+            วันเวลาที่สะดวก
+            <input name="datetime" type="datetime-local" required />
+          </label>
+
+          <label>
+            รายละเอียดเพิ่มเติม
+            <textarea name="details" rows="4" placeholder="เล่าคร่าว ๆ เกี่ยวกับปัญหาแรงงานของคุณ"></textarea>
+          </label>
+
+          <button class="btn btn-submit" type="submit">ส่งคำขอนัดหมาย</button>
+        </form>
+
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
