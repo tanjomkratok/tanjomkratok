@@ -1,10 +1,17 @@
-- 👋 Hi, I’m @tanjomkratok
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Labor Law Video Call App
 
-<!---
-tanjomkratok/tanjomkratok is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+เว็บแอพตัวอย่างสำหรับให้คำปรึกษาปัญหากฎหมายแรงงานผ่านวิดีโอคอล โดยรองรับช่องทาง:
+
+- LINE
+- Facebook Messenger
+- Zoom
+
+## วิธีใช้งาน
+
+1. เปิดไฟล์ `index.html` ด้วยเบราว์เซอร์
+2. กดปุ่มช่องทางที่ต้องการเพื่อเริ่มติดต่อทันที
+3. กรอกแบบฟอร์มนัดหมายเพื่อส่งข้อมูลให้ทีมงานติดต่อกลับ
+
+## หมายเหตุ
+
+ลิงก์ LINE / Facebook / Zoom ในโปรเจกต์นี้เป็นตัวอย่าง ควรเปลี่ยนเป็นลิงก์จริงขององค์กรก่อนใช้งานจริง

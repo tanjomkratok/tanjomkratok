@@ -1,0 +1,111 @@
+:root {
+  font-family: "Noto Sans Thai", "Prompt", system-ui, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #e0f2fe 100%);
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.hero {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.badge {
+  display: inline-block;
+  font-weight: 600;
+  color: #0369a1;
+  background: #e0f2fe;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.7rem;
+  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+}
+
+.channels {
+  margin-top: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card,
+.form-wrap {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  background: #0284c7;
+  color: #fff;
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0369a1;
+}
+
+.form-wrap {
+  margin-top: 1.2rem;
+}
+
+.booking-form {
+  display: grid;
+  gap: 0.8rem;
+}
+
+label {
+  display: grid;
+  gap: 0.3rem;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.btn-submit {
+  justify-self: start;
+}
+
+.status {
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+
+.status.success {
+  color: #15803d;
+}
